@@ -1,0 +1,82 @@
+body{
+    background-color: rgb(28, 26, 26);
+    margin-top: 50;
+}
+h1{
+    font-size:100 ;
+    color: rgb(176, 172, 172);
+}
+.dice1{
+    width:150px;
+    height:150px;
+    margin-left:35%;
+    margin-right:100;
+    background-color: red;
+    display: inline-block;
+    border-radius: 5%;
+}
+.dice2{
+    width:150px;
+    height:150px;
+    margin-right:10%;
+    /* margin-right:100px; */
+    background-color: red;
+    display: inline-block;
+    border-radius: 5%;
+}
+font{
+    color: rgb(176, 172, 172);
+    font-size: 50;
+}
+.players{
+    margin-bottom: 50;
+}
+.P1{
+    margin-left:32%;
+    margin-right: 30;
+    margin-bottom: 18;
+}
+
+.spot{
+    width:20px;
+    height: 20;
+    border-radius: 50%;
+    background-color: white;
+}
+.I2{
+    margin-left: 25%;
+    display: block;
+    position: relative;
+    bottom: 20;
+    left: 60;
+}
+.I4{
+    margin-left: 25%;
+    display: block;
+    position: relative;
+    bottom: 20;
+    left: 60;
+}
+.I6{
+    margin-left: 25%;
+    display: block;
+    position: relative;
+    bottom: 20;
+    left: 60;
+}
+.I1{
+    margin-left: 25%;
+    display: inline-block;
+    margin-top: 20%;
+}
+.I3{
+    display: block;
+    margin-left: 25%;
+}
+.I5{
+    display: block;
+    margin-left: 25%;
+}
+.active{
+    display: none;
+}
